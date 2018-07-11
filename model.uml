@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_O8QDEHi3Eei2U-9ZXqM0eQ" name="NewModel">
+  <packagedElement xmi:type="uml:Class" xmi:id="_PhlsEHl4Eei2U-9ZXqM0eQ" name="Musician" visibility="public">
+    <generalization xmi:id="_kssM4IO1EeiVSLTM_ClylQ" general="_MuV9YIO1EeiVSLTM_ClylQ"/>
+    <ownedAttribute xmi:id="_7qw2IHl4Eei2U-9ZXqM0eQ" name="Skill Level" type="_HPvvMISQEeiz8t9NS3_9qg"/>
+    <ownedAttribute xmi:id="_LG0UcHl5Eei2U-9ZXqM0eQ" name="In Youth Group">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NCJ_wHl5Eei2U-9ZXqM0eQ" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_CRSMQHl7Eei2U-9ZXqM0eQ" name="Name"/>
+    <ownedAttribute xmi:id="_kEra0HvXEei2U-9ZXqM0eQ" name="Phone Number"/>
+    <ownedAttribute xmi:id="_mZsxcHvXEei2U-9ZXqM0eQ" name="E-mail Address"/>
+    <ownedOperation xmi:id="_8RGLcHl6Eei2U-9ZXqM0eQ" name="getName"/>
+    <ownedOperation xmi:id="_J1_64Hl7Eei2U-9ZXqM0eQ" name="getSkillLevel"/>
+    <ownedOperation xmi:id="_ovGikHvXEei2U-9ZXqM0eQ" name="getEmailAddress"/>
+    <ownedOperation xmi:id="_pDuuwHvXEei2U-9ZXqM0eQ" name="getPhoneNumber"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XJpCkHl4Eei2U-9ZXqM0eQ" name="Songs" visibility="public">
+    <ownedAttribute xmi:id="_kTdjEHl5Eei2U-9ZXqM0eQ" name="Difficulty"/>
+    <ownedAttribute xmi:id="_kjlpwHl5Eei2U-9ZXqM0eQ" name="Theme"/>
+    <ownedAttribute xmi:id="_knOMkHl5Eei2U-9ZXqM0eQ" name="Key"/>
+    <ownedAttribute xmi:id="_oyqSQHl5Eei2U-9ZXqM0eQ" name="Singer Choice"/>
+    <ownedAttribute xmi:id="_o39B8Hl5Eei2U-9ZXqM0eQ" name="Hype"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Jg1YoHl6Eei2U-9ZXqM0eQ" name="Guitarist" visibility="public">
+    <generalization xmi:id="_msfagHl6Eei2U-9ZXqM0eQ" general="_PhlsEHl4Eei2U-9ZXqM0eQ"/>
+    <ownedAttribute xmi:id="_RdrogHl8Eei2U-9ZXqM0eQ" name="Key" type="_YV8nwIO3EeiVSLTM_ClylQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OUiYMHl6Eei2U-9ZXqM0eQ" name="Pianist" visibility="public">
+    <generalization xmi:id="_n2g9oHl6Eei2U-9ZXqM0eQ" general="_PhlsEHl4Eei2U-9ZXqM0eQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QOEFoHl6Eei2U-9ZXqM0eQ" name="Vocalist" visibility="public">
+    <generalization xmi:id="_o0Y7IHl6Eei2U-9ZXqM0eQ" general="_PhlsEHl4Eei2U-9ZXqM0eQ"/>
+    <ownedAttribute xmi:id="_TYPGIHl7Eei2U-9ZXqM0eQ" name="Boy/Girl" type="_Qcf_QIO3EeiVSLTM_ClylQ"/>
+    <ownedAttribute xmi:id="_Tqq58Hl7Eei2U-9ZXqM0eQ" name="Key" type="_bjycwIO3EeiVSLTM_ClylQ"/>
+    <ownedOperation xmi:id="_acDuMHl7Eei2U-9ZXqM0eQ" name="getSex"/>
+    <ownedOperation xmi:id="_dz0UMHl7Eei2U-9ZXqM0eQ" name="getKey"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Th2xoHl6Eei2U-9ZXqM0eQ" name="Bass Guitarist" visibility="public">
+    <generalization xmi:id="_pZjdsHl6Eei2U-9ZXqM0eQ" general="_PhlsEHl4Eei2U-9ZXqM0eQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_bcKVwHl6Eei2U-9ZXqM0eQ" name="Drummer" visibility="public">
+    <generalization xmi:id="_lGu9oHl6Eei2U-9ZXqM0eQ" general="_PhlsEHl4Eei2U-9ZXqM0eQ"/>
+    <ownedAttribute xmi:id="_MmugoHl8Eei2U-9ZXqM0eQ" name="Type " type="_WJmsAIO3EeiVSLTM_ClylQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_T7ba0IIjEeiDAsydxOo2hw" name="SkillLevel" visibility="public">
+    <ownedLiteral xmi:id="_bKZi8IIjEeiDAsydxOo2hw" name="Beginner"/>
+    <ownedLiteral xmi:id="_bPqdcIIjEeiDAsydxOo2hw" name="Intermediate"/>
+    <ownedLiteral xmi:id="_bUUT8IIjEeiDAsydxOo2hw" name="Advanced"/>
+    <ownedLiteral xmi:id="_bYqocIIjEeiDAsydxOo2hw" name="Professional"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MuV9YIO1EeiVSLTM_ClylQ" name="Person" visibility="public">
+    <generalization xmi:id="_lrewYIO1EeiVSLTM_ClylQ" general="_iXtSgIO1EeiVSLTM_ClylQ"/>
+    <ownedAttribute xmi:id="_QDKkIIO1EeiVSLTM_ClylQ" name="lastName" type="_7r8hcIO2EeiVSLTM_ClylQ"/>
+    <ownedAttribute xmi:id="_QTmM0IO1EeiVSLTM_ClylQ" name="firstName" type="_92xaQIO2EeiVSLTM_ClylQ"/>
+    <ownedAttribute xmi:id="_QlIowIO1EeiVSLTM_ClylQ" name="email" type="_A09psIO3EeiVSLTM_ClylQ"/>
+    <ownedAttribute xmi:id="_RLlkwIO1EeiVSLTM_ClylQ" name="phoneNum" type="_JbgowIO3EeiVSLTM_ClylQ"/>
+    <ownedAttribute xmi:id="_RQKiwIO1EeiVSLTM_ClylQ" name="inYouthGroup" type="_NCxDUIO3EeiVSLTM_ClylQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iXtSgIO1EeiVSLTM_ClylQ" name="Media" visibility="public"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_7r8hcIO2EeiVSLTM_ClylQ" name="String"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_92xaQIO2EeiVSLTM_ClylQ" name="String"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_A09psIO3EeiVSLTM_ClylQ" name="String"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_JbgowIO3EeiVSLTM_ClylQ" name="String"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LRO0QIO3EeiVSLTM_ClylQ"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_NCxDUIO3EeiVSLTM_ClylQ" name="boolean"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Qcf_QIO3EeiVSLTM_ClylQ" name="boolean"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_WJmsAIO3EeiVSLTM_ClylQ" name="String"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_YV8nwIO3EeiVSLTM_ClylQ" name="String"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_bjycwIO3EeiVSLTM_ClylQ" name="String"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_MrdAcIPAEeiz8t9NS3_9qg" name="Difficulty" visibility="public">
+    <ownedLiteral xmi:id="_g8yxoISPEeiz8t9NS3_9qg" name="Beginner"/>
+    <ownedLiteral xmi:id="_hBRpAISPEeiz8t9NS3_9qg" name="Intermediate"/>
+    <ownedLiteral xmi:id="_hF_w8ISPEeiz8t9NS3_9qg" name="Advanced"/>
+    <ownedLiteral xmi:id="_hIXvgISPEeiz8t9NS3_9qg" name="Professional"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_P0DvEISPEeiz8t9NS3_9qg" name="Theme" visibility="public">
+    <ownedLiteral xmi:id="_V1nzcISQEeiz8t9NS3_9qg" name="Uplifting"/>
+    <ownedLiteral xmi:id="_YMuNsISQEeiz8t9NS3_9qg" name="Love"/>
+    <ownedLiteral xmi:id="_YXsHkISQEeiz8t9NS3_9qg" name="Strength and Refuge"/>
+    <ownedLiteral xmi:id="_hY2mEISQEeiz8t9NS3_9qg" name="Repentance"/>
+    <ownedLiteral xmi:id="_jF0eMISQEeiz8t9NS3_9qg" name="Salvation"/>
+    <ownedLiteral xmi:id="_rb5YUISQEeiz8t9NS3_9qg" name="Comfort"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_TBD2kISPEeiz8t9NS3_9qg" name="" visibility="public">
+    <ownedLiteral xmi:id="_w84UoISQEeiz8t9NS3_9qg" name="C"/>
+    <ownedLiteral xmi:id="_w-LVIISQEeiz8t9NS3_9qg" name="Literal"/>
+    <ownedLiteral xmi:id="_w_hY8ISQEeiz8t9NS3_9qg" name="Literal"/>
+    <ownedLiteral xmi:id="_xCYfsISQEeiz8t9NS3_9qg" name="Literal"/>
+    <ownedLiteral xmi:id="_xEQH8ISQEeiz8t9NS3_9qg" name="Literal"/>
+    <ownedLiteral xmi:id="_xIJJcISQEeiz8t9NS3_9qg" name="Literal"/>
+    <ownedLiteral xmi:id="_xJnJEISQEeiz8t9NS3_9qg" name="Literal"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_6i63QISPEeiz8t9NS3_9qg" name="Songs" visibility="public">
+    <ownedAttribute xmi:id="_NtpmwISQEeiz8t9NS3_9qg" name="difficulty" type="_PqNaEISQEeiz8t9NS3_9qg"/>
+    <ownedAttribute xmi:id="_5KKfIISQEeiz8t9NS3_9qg" name="theme" type="_6r27YISQEeiz8t9NS3_9qg"/>
+    <ownedAttribute xmi:id="_8k1PMISQEeiz8t9NS3_9qg" name="Key" type="_-8wv4ISQEeiz8t9NS3_9qg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_HPvvMISQEeiz8t9NS3_9qg" name="SkillLevel"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_PqNaEISQEeiz8t9NS3_9qg" name="Difficulty"/>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_6r27YISQEeiz8t9NS3_9qg" name="Theme"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_-8wv4ISQEeiz8t9NS3_9qg" name="char"/>
+</uml:Model>
